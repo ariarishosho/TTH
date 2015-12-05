@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:fitsSystemWindows="true"
+    tools:context=".MainActivity"
+    android:weightSum="1"
+    android:orientation="vertical">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.51">
+
+        <ImageButton
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:id="@+id/imageButton"
+            android:layout_gravity="center_horizontal|left"
+            android:src="@drawable/profile" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/button4"
+            android:layout_gravity="right|center_vertical"
+            android:text="鬮俶ｩ区怏蟶�"
+            android:textSize="40dp" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_gravity="right"
+        android:layout_weight="3.60">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="縺�10m蜑肴婿縺ｫ縺�縺ｾ縺吶��"
+            android:id="@+id/textView"
+            android:layout_gravity="center_vertical|right|top" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="縺�20m蜑肴婿縺ｫ縺�縺ｾ縺吶��"
+            android:id="@+id/textView2"
+            android:layout_gravity="right|center_vertical" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/imageView"
+            android:layout_gravity="left|top"
+            android:src="@drawable/profile2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView6"
+            android:layout_gravity="center_horizontal|top"
+            android:text="譛ｨ譚醍ｿ泌､ｪ縺輔ｓ" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="驤ｴ譛ｨ螟丞ｭ舌＆繧�"
+            android:id="@+id/textView7"
+            android:layout_gravity="center" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/imageView3"
+            android:layout_gravity="left|center_vertical"
+            android:src="@drawable/profile3" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="357dp"
+        android:layout_height="100dp"
+        android:layout_gravity="bottom">
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="蜿矩＃繝ｪ繧ｹ繝�"
+            android:id="@+id/friendlistbutton"
+            android:layout_gravity="left|bottom" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="繝偵せ繝医Μ繝ｼ"
+            android:id="@+id/historybutton"
+            android:layout_gravity="center_horizontal|bottom" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="繝ｩ繝ｳ繧ｭ繝ｳ繧ｰ"
+            android:id="@+id/rankingbutton"
+            android:layout_gravity="right|bottom" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/sample_content_fragment"
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="0px" />
+</android.support.design.widget.CoordinatorLayout>

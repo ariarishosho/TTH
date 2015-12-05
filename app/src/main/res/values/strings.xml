@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">My Application3</string>
+    <string name="action_settings">Settings</string>
+    <string name="bt_not_enabled_leaving">Bluetoothの起動は拒否されました。</string>
+    <string name="non_connected">つながってないよ</string>
+    <string name="title_connected_to">a</string>
+    <string name="title_connecting">a</string>
+    <string name="title_not_connect">a</string>
+    <string name="title_other_devices">title other</string>
+    <string name="title_paired_devices">title paired</string>
+    <string name="button_scan">ボタンスキャン</string>
+    <string name="send">送信！</string>
+    <string name="none_paired">ペアが見つかりませんでした。</string>
+    <string name="select_device">誰のandroidと接続しますか？</string>
+    <string name="none_found">誰もみつかりませんでした。</string>
+</resources>

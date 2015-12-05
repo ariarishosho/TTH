@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:fitsSystemWindows="true"
+    tools:context=".MainActivity"
+    android:weightSum="1"
+    android:orientation="vertical">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.51">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/button4"
+            android:layout_gravity="right|center_vertical"
+            android:text="木村翔太"
+            android:textSize="40dp" />
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:id="@+id/imageView"
+            android:layout_gravity="left|center_vertical"
+            android:src="@drawable/profile2" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="357dp"
+        android:layout_height="100dp"
+        android:layout_gravity="bottom">
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="友達リスト"
+            android:id="@+id/friendlistbutton"
+            android:layout_gravity="left|bottom" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ヒストリー"
+            android:id="@+id/historybutton"
+            android:layout_gravity="center_horizontal|bottom" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ランキング"
+            android:id="@+id/rankingbutton"
+            android:layout_gravity="right|bottom" />
+    </FrameLayout>
+</android.support.design.widget.CoordinatorLayout>
